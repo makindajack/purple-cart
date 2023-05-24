@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./icon/shopping/cart.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <link rel="stylesheet" href="style.css" />
@@ -11,23 +11,34 @@
     <section
       class="container mx-auto h-screen flex justify-center items-center"
     >
-      <div class="flex justify-center items-center">
-        <div
-          class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
-        ></div>
-        <div class="w-14 bg-stone-500 h-1"></div>
-        <div
-          class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
-        ></div>
-        <div class="w-14 bg-stone-500 h-1"></div>
-        <div
-          class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
-        ></div>
-        <div class="w-14 bg-stone-500 h-1"></div>
-        <img
-          src="./public/icon/shopping/buying.svg"
-          class="w-auto h-[72px] -translate-x-4"
-        />
+      <div class="flex flex-col">
+        <div class="flex justify-center items-center ml-4">
+          <div
+            class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
+          ></div>
+          <div class="w-24 bg-stone-500 h-1"></div>
+          <div
+            class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
+          ></div>
+          <div class="w-24 bg-stone-500 h-1"></div>
+          <div
+            class="bg-slate-50 border-4 border-stone-500 p-2 rounded-3xl"
+          ></div>
+          <div class="w-24 bg-stone-500 h-1"></div>
+          <img
+            src="./icon/shopping/buying.svg"
+            class="w-auto h-[72px] -translate-x-4"
+          />
+        </div>
+        <div class="flex justify-between items-center gap-6 mr-9">
+          <div class="text-slate-50 capitalize">setup</div>
+
+          <div class="text-slate-50 capitalize">billing</div>
+
+          <div class="text-slate-50 capitalize">order</div>
+
+          <div class="text-slate-50 capitalize">done</div>
+        </div>
       </div>
     </section>
   </body>
