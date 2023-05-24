@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="240" height="240">
+  <polygon fill="#3dd9eb" points="40.729,37 9,37 9,13 46.395,13" />
+  <polygon fill="#3dd9eb" points="13,37 8,37 8,12 1,12 1,7 13,7" />
+  <circle cx="33" cy="37" r="4" fill="#6c19ff" />
+  <circle cx="16" cy="37" r="4" fill="#6c19ff" />
+  <path fill="#2100c4" d="M33,33c-2.209,0-4,1.791-4,4h8C37,34.791,35.209,33,33,33z" />
+  <path fill="#2100c4" d="M16,33c-2.209,0-4,1.791-4,4h8C20,34.791,18.209,33,16,33z" />
+</svg>
